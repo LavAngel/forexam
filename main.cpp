@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	}
 	else {
 		iname = argv[1];
-		oname = argv[1];
+		oname = argv[2];
 	}
 
 	ifstream fin(iname, ifstream::in);
